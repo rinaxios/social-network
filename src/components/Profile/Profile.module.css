@@ -1,0 +1,9 @@
+.contentImg {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.contentImg img {
+    max-width: 100%;
+    object-fit: cover;
+}
