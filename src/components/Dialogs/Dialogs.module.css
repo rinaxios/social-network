@@ -9,11 +9,12 @@
     margin: 10px;
 }
 .dialog a{
-    color: white;
+    color: #414141;
     text-decoration: none;
+    font-weight: 500;
 }
 .dialog a.active{
-    color: gold;
+    color: #4C75A3;
     font-weight: bold;
 }
 .messages{

@@ -6,7 +6,7 @@ const ProfileInfo = () => {
         <div>
             <div className={s.contentImg}>
                 <img
-                    src="https://st5.depositphotos.com/35914836/63547/i/1600/depositphotos_635479520-stock-photo-background-texture-old-brick-wall.jpg"
+                    src="https://images.pexels.com/photos/14528190/pexels-photo-14528190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt=""/>
             </div>
             <div className={s.descriptionBlock}>
