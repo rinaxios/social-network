@@ -8,6 +8,7 @@ const MyPosts = () => {
         {id: 1, post: 'Hello my friend'},
         {id: 2, post: 'This is my first post'},
     ]
+    let newPostData = postData.map(post => <Post message={post.post}/>)
 
     return (
         <div className={s.postsBlock}>
@@ -19,8 +20,7 @@ const MyPosts = () => {
                 <button>Add</button>
             </div>
             <div className={s.posts}>
-                <Post message={postData[0].post}/>
-                <Post message={postData[1].post}/>
+                {newPostData}
             </div>
         </div>
     );
